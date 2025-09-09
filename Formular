@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My cool page</title>
+</head>
+
+<body>
+
+    <h1>Startsida</h1>
+
+    <p>Min första paragraf.</p>
+
+    <!--Detta är en kommentar-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt impedit aperiam nisi aut minima? Totam ratione,
+        illum velit et perferendis commodi ipsum sequi non! Cumque quod tenetur quaerat molestias minima?</p>
+
+    <ul>
+        <li>Första punkten</li>
+        <li>Andra punkten</li>
+        <li>Tredje punkten</li>
+        <ol>
+            <li>Första punkten i ordnad lista</li>
+            <li>Andra punkten i ordnad lista</li>
+            <li>Tredje punkten i ordnad lista</li>
+        </ol>
+    </ul>
+
+    <form method="get" action="index.html">
+        <Label for="förnamn">Förnamn:</Label><br>
+        <input type="text" id="förnamn" name="förnamn">
+        förnamn=<input type="text" name="förnamn">
+    </form>
+
+</body>
+
+</html>

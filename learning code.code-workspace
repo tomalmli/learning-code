@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/Demo-HTML/Demo-HTML"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "learning code"
+	}
+}
