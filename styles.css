@@ -49,13 +49,13 @@ nav, .navigationbar {
 }
 
 .bg-image {
-    background-color: rgba(0, 0, 0, 0.884);
+    min-height: 200vh; /* Make it tall enough to scroll */
     background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/hal-9000-gaspar-avila.jpg");
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* To achieve opacity, use an overlay or rgba background color if needed */
+    background-attachment: fixed;
+    position: relative;
 }
 
 body,
